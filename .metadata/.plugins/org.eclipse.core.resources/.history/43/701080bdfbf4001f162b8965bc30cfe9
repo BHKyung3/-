@@ -1,0 +1,25 @@
+package Example;
+
+public class Example4 {
+
+	public static void main(String[] args) {
+
+		// 정수 타입 변환 후 연산하기
+		byte a = 10;
+		byte b = 20;
+		int resu = a + b;
+		System.out.println("값: " + resu);
+		
+		// 결합 연산
+		String g = "100" + (2 + 98);
+		System.out.println("result: " + g);
+		
+		int h = 10;
+		int t = 100;
+		int i = 200;
+		int u = Integer.parseInt("100");
+		
+		System.out.println("값: " + u + t);
+	}
+
+}
