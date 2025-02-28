@@ -8,7 +8,7 @@ public class ScannerExample {
 		
 		System.out.print("문자입력 : ");
 		Scanner sc = new Scanner(System.in);
-		int str = Integer.parseInt(sc.nextLine())
+		int str = Integer.parseInt(sc.nextLine();
 		
 		ste = ste + 10; 
 		
