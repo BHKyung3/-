@@ -7,9 +7,11 @@ public class IncraseExample {
 		// 감소연산자 --
 		
 		int a = 0;
+		int b = 0;
+		
 		System.out.println(a);
-		a = ++a;
-		System.out.printf("a=%d, b=%d\n",a,b);
+		b = ++a;
+		System.out.printf("a=%d, b=%d\n",a, b);
 
 	}
 

@@ -8,11 +8,11 @@ public class ScannerExample {
 		
 		System.out.print("문자입력 : ");
 		Scanner sc = new Scanner(System.in);
-		int str = Integer.parseInt();
+		int str = sc.nextInt();
 		
-		ste = ste + 10; 
+		str = str + 10; 
 		
-		System.out.println("입력된 값 : " + ste);
+		System.out.println("입력된 값 : " + str);
 		
 	
 		
