@@ -14,7 +14,7 @@ public class SwitchExample01 {
 		int grade = 87;
 		
 		switch(grade / 10) {
-	case 10:
+	case 10: //정수, 문자, 문자열만 올 수 있음.(실수 불가)
 		System.out.println("A");
 		break;
 	case 9:

@@ -10,12 +10,12 @@ public class IfExam1 {
 		 * if ~ else if ~ else : 경우의수가 많을 때 > 직관적으로 보기 편하게 만든것이 swich(활용범위는 if가 더 높음)
 		 */
 		
-	int kor = 50;
+	int kor = 80;
 		
-	if(kor >= 50) {
+	if(kor <= 50) {
 			System.out.println("합격");
 		}
-	if(kor < 70) {
+	if(kor >= 70) {
 			System.out.println("불합격");
 		}
 	System.out.println("종료");
